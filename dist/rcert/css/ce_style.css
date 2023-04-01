@@ -1,0 +1,189 @@
+a:hover,a:active{color:#800000}
+table.w3-table-all{margin:20px 0}
+
+
+/* Start of Banner LAYOUT */
+.top {
+position:relative;
+background-color:#ffffff;
+height:68px;
+padding-top:20px;
+line-height:50px;
+overflow:hidden;
+z-index:2;
+}
+.w3schools-logo {
+font-family:fontawesome;
+text-decoration:none;
+line-height:1;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+font-size:37px;
+letter-spacing:3px;
+color:#0099ff;
+display:block;
+position:absolute;
+top:17px;
+}
+/* END of Banner LAYOUT */
+
+
+/* Start of NAVBAR LAYOUT */
+.topnav {
+position:absolute;
+z-index:4;             /* height  */
+font-size:17px;            
+background-color:#5f5f5f;
+color:#f1f1f1;
+width:100%;
+padding:0;
+letter-spacing:1px;
+font-family:"Segoe UI",Arial,sans-serif;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.topnav a{
+padding:10px 15px 9px 15px !important;
+}
+.topnav .w3-bar a:hover{
+background-color:#000000 !important;
+color:#ffffff !important;
+}
+.topnav .w3-bar a.active {
+background-color:#4CAF50;
+color:#ffffff;
+}
+a.topnav-icons {
+width:52px !important;
+font-size:20px !important;
+padding-top:11px !important;
+padding-bottom:13px !important;
+}
+a.topnav-icons.fa-home {font-size:22px !important}
+a.topnav-icons.fa-menu {font-size:22px !important}
+a.topnav-localicons {
+font-size:20px !important;
+padding-top:6px !important;
+padding-bottom:12px !important;
+}
+i.fa-caret-down,i.fa-caret-up{width:10px}
+/* END of NAVBAR LAYOUT */
+
+
+/* Start of DROPDOWN NAVBAR LAYOUT */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+	margin-top:-8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1e1e1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	margin-top:44px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #515f79;
+}
+
+/* END of DROPDOWN NAVBAR LAYOUT */
+
+
+/* Start of SIDEBAR LAYOUT */
+#sidenav h2 {
+font-size:21px;
+padding-left:16px;
+margin:-4px 0 4px 0;
+width:210px;
+}
+.w3-sidebar {
+  z-index: 3;
+  width: 225px;
+  top:113px;
+  bottom:-113px;
+  height: inherit;
+  background-color:#e6e2e2;
+  color:#5f5f5f;
+  position: absolute;
+}
+.sticky2 {
+  top: 45px;
+}
+/* END of SIDEBAR LAYOUT */
+
+
+
+/* Start of NAVBAR2 LAYOUT */
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window "absolute" but changed to fixed */
+    left: -180px; /* Position them outside of the screen */
+    transition: 0.6s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 240px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+	z-index: 2;
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 130px from the top with a green background */
+#about {
+    top: 170px;
+}
+
+#projects {
+    top: 240px;
+}
+
+#contact {
+    top: 310px;
+}
+
+/* END of NAVBAR2 LAYOUT */
+
+/* adsense layout*/
+#ads1 {
+	background:none;
+}
+
